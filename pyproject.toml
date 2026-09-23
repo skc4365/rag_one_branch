@@ -7,7 +7,9 @@ authors = [
     { name = "skc4365", email = "50658047+skc4365@users.noreply.github.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain-upstage>=0.7.7",
+]
 
 [project.scripts]
 rag-one-branch = "rag_one_branch:main"
